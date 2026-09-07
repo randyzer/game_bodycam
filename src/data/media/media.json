@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "id": "youtube.locked-loaded",
+      "type": "video",
+      "src": "AQ3DPo2fvSc",
+      "alt": "Official Reissad Studio Locked and Loaded trailer for Bodycam v0.8",
+      "caption": "Official Locked and Loaded trailer from Reissad Studio.",
+      "sourceUrl": "https://www.youtube.com/watch?v=AQ3DPo2fvSc"
+    },
+    {
+      "id": "youtube.animation-loadout",
+      "type": "video",
+      "src": "6YUWQXv0MTk",
+      "alt": "Official Reissad Studio devlog showing Bodycam animation and loadout context",
+      "caption": "Official Reissad Studio devlog used as loadout and tablet media context.",
+      "sourceUrl": "https://www.youtube.com/watch?v=6YUWQXv0MTk"
+    },
+    {
+      "id": "youtube.trenches",
+      "type": "video",
+      "src": "hRDSX1RLtnw",
+      "alt": "Official Reissad Studio Trenches devlog for Bodycam map planning",
+      "caption": "Official Reissad Studio Trenches devlog used for map-family context.",
+      "sourceUrl": "https://www.youtube.com/watch?v=hRDSX1RLtnw"
+    }
+  ],
+  "pages": [
+    { "pageId": "home", "trailer": "youtube.locked-loaded" },
+    { "pageId": "update.locked-loaded", "trailer": "youtube.locked-loaded" },
+    { "pageId": "guide.loadouts", "trailer": "youtube.animation-loadout" },
+    { "pageId": "guide.tactical-tablet", "trailer": "youtube.animation-loadout" },
+    { "pageId": "guide.maps", "trailer": "youtube.trenches" }
+  ]
+}

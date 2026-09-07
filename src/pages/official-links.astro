@@ -1,0 +1,57 @@
+---
+import StaticWikiPage from "../components/StaticWikiPage.astro";
+import { getPageByRoute } from "../core/site-data";
+
+const page = getPageByRoute("/official-links/");
+---
+
+<StaticWikiPage page={page}>
+  <h2>Primary Sources</h2>
+  <p>
+    Use these links when you need to confirm the current Bodycam game,
+    official update notes, system requirements, or Reissad Studio channels.
+    They are the source anchors for this guide set.
+  </p>
+
+  <ul>
+    <li>
+      <a href="https://store.steampowered.com/app/2406770/Bodycam/">Steam Store</a>
+      - official store page for Bodycam, Steam App ID 2406770, developer,
+      publisher, Early Access state, platform support, reviews, media, and PC
+      requirements.
+    </li>
+    <li>
+      <a href="https://store.steampowered.com/news/app/2406770">Steam News</a>
+      - official update and patch-note feed for Locked & Loaded and later
+      maintenance checks.
+    </li>
+    <li>
+      <a href="https://www.playbodycam.com/en-US">Official Bodycam website</a>
+      - Reissad Studio's player-facing feature, media, and community hub.
+    </li>
+    <li>
+      <a href="https://www.youtube.com/@ReissadStudio">Reissad Studio YouTube</a>
+      - official trailers and devlogs, including the Locked & Loaded trailer
+      and v0.8 devlog series.
+    </li>
+    <li>
+      <a href="https://discord.gg/reissadstudio">Official Discord invite</a>
+      - community entry point advertised by official Bodycam sources.
+    </li>
+  </ul>
+
+  <h2>How to Use This Page</h2>
+  <p>
+    If a guide makes a claim about a patch, requirement, mode, map, or system,
+    prefer these official sources over copied wiki text or social posts. Steam
+    News is the best starting point for update timing. Steam appdetails is the
+    best starting point for system requirements.
+  </p>
+
+  <h2>Evidence Boundary</h2>
+  <p>
+    Competitor pages and community discussions can reveal useful questions, but
+    they do not turn exact stats, formulas, tier lists, player-count numbers, or
+    console availability into verified Bodycam facts.
+  </p>
+</StaticWikiPage>

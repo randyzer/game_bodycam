@@ -1,0 +1,68 @@
+---
+import StaticWikiPage from "../components/StaticWikiPage.astro";
+import { getPageByRoute } from "../core/site-data";
+
+const page = getPageByRoute("/faq/");
+---
+
+<StaticWikiPage page={page}>
+  <h2>Fast Answers</h2>
+  <h3>Is this the Steam game by Reissad Studio?</h3>
+  <p>
+    Yes. This site covers Bodycam, the Reissad Studio PC game on Steam,
+    Steam App ID 2406770. It does not cover Roblox Bodycam experiences,
+    camera hardware, films, or unrelated body-camera topics.
+  </p>
+
+  <h3>Is Bodycam still in Early Access?</h3>
+  <p>
+    Steam currently lists Bodycam as an Early Access game. That means current
+    systems, requirements, settings, and patch details should be checked
+    against official sources before release decisions.
+  </p>
+
+  <h3>What changed in Locked & Loaded?</h3>
+  <p>
+    Steam News records Locked & Loaded as the v0.8 update released on
+    2026-09-02 at 17:00 UTC. The update context includes Trenches, loadouts,
+    attachments, the tactical tablet, FPV drones, RC cars, sound work, mode
+    changes, and follow-up hotfixes.
+  </p>
+
+  <h3>What is the safest first guide to read?</h3>
+  <p>
+    Start with <a href="/guides/getting-started/">getting started</a>, then
+    check <a href="/guides/controls/">controls</a> and
+    <a href="/guides/best-settings/">best settings</a> before copying any
+    build, sensitivity, or performance advice from older sources.
+  </p>
+
+  <h3>Does Bodycam have a weapon builder here?</h3>
+  <p>
+    No. Weapon builder demand exists, but this project does not publish a tool
+    until current weapon, attachment, and formula data are verified. The public
+    <a href="/guides/loadouts-and-attachments/">loadouts guide</a> stays
+    qualitative and avoids fake precision.
+  </p>
+
+  <h3>Is Bodycam on console?</h3>
+  <p>
+    This project only covers the PC / Steam / Windows version unless an
+    official Reissad Studio or Steam source changes that scope. Do not treat
+    competitor console pages as official availability evidence.
+  </p>
+
+  <h3>Are there Roblox codes or redeem codes?</h3>
+  <p>
+    This site does not publish Roblox Bodycam codes because that is a different
+    search intent. No official Bodycam code system is verified for the current
+    guide collection.
+  </p>
+
+  <h2>Claims This Site Avoids</h2>
+  <p>
+    Exact weapon stats, tier lists, player-count numbers, hidden formulas,
+    future roadmap promises, and unsupported console claims are not stated as
+    facts here. When a topic needs deeper data, the guide says so directly.
+  </p>
+</StaticWikiPage>
