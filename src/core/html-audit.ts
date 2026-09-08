@@ -267,3 +267,21 @@ export function collectReferencedAssetPaths(html: string): string[] {
   }
   return [...assets].sort();
 }
+
+export function collectExternalScriptAuditErrors(html: string): string[] {
+  const allowedExternalScripts = [
+    /^https:\/\/www\.googletagmanager\.com\/gtag\/js\?id=G-[A-Z0-9]+$/,
+    /^https:\/\/pl31237762\.profitableratecpmnetwork\.com\/[a-f0-9]{32}\/invoke\.js$/i,
+  ];
+  const errors: string[] = [];
+
+  for (const tag of openingTags(html, "script")) {
+    const src = attributesFromTag(tag).get("src");
+    if (!src || !/^https?:\/\//i.test(src)) continue;
+    if (!allowedExternalScripts.some((pattern) => pattern.test(src))) {
+      errors.push(`External script reference is not allowed by default: ${src}`);
+    }
+  }
+
+  return errors;
+}

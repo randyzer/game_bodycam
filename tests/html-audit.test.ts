@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import {
   collectBuildHtmlAuditErrors,
+  collectExternalScriptAuditErrors,
   collectReferencedAssetPaths,
 } from "../src/core/html-audit";
 import {
@@ -143,5 +144,20 @@ describe("generated HTML audit", () => {
       "/_astro/island.js",
       "/_astro/site.css",
     ]);
+  });
+
+  it("only permits the approved Google Analytics and Adsterra external scripts", () => {
+    expect(
+      collectExternalScriptAuditErrors(`
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-5JVXW2G80M"></script>
+        <script src="https://pl31237762.profitableratecpmnetwork.com/fbac69be15ca4c593ac0152236caf565/invoke.js"></script>
+      `),
+    ).toEqual([]);
+
+    expect(
+      collectExternalScriptAuditErrors(`
+        <script src="https://example.com/tracker.js"></script>
+      `).join(" "),
+    ).toMatch(/not allowed/i);
   });
 });

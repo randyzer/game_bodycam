@@ -9,6 +9,7 @@ import {
   type StructuredDataNode,
 } from "../core/seo";
 import type { PageInventoryEntry } from "../data/schemas/page-inventory";
+import { buildThirdPartyScriptConfig } from "../core/third-party-scripts";
 import "../styles/global.css";
 
 interface Props {
@@ -30,6 +31,11 @@ const graph = [
       ? [structuredData]
       : []),
 ];
+const thirdPartyScripts = buildThirdPartyScriptConfig({
+  PUBLIC_ADSTERRA_AD_KEY: import.meta.env.PUBLIC_ADSTERRA_AD_KEY,
+  PUBLIC_ADSTERRA_BASE_URL: import.meta.env.PUBLIC_ADSTERRA_BASE_URL,
+  PUBLIC_GA_MEASUREMENT_ID: import.meta.env.PUBLIC_GA_MEASUREMENT_ID,
+});
 ---
 
 <!doctype html>
@@ -65,11 +71,23 @@ const graph = [
         "@graph": graph,
       })}
     />
+    {thirdPartyScripts.googleAnalyticsScriptSrc && (
+      <script is:inline async src={thirdPartyScripts.googleAnalyticsScriptSrc}></script>
+    )}
+    {thirdPartyScripts.googleAnalyticsInlineConfig && (
+      <script is:inline set:html={thirdPartyScripts.googleAnalyticsInlineConfig}></script>
+    )}
   </head>
   <body id="top" data-page-family={page.module}>
     <a class="skip-link" href="#main-content">Skip to content</a>
     <Header currentRoute={page.route} />
     <slot />
     <Footer />
+    {thirdPartyScripts.adsterraScriptSrc && (
+      <script is:inline async="async" data-cfasync="false" src={thirdPartyScripts.adsterraScriptSrc}></script>
+    )}
+    {thirdPartyScripts.adsterraContainerId && (
+      <div id={thirdPartyScripts.adsterraContainerId}></div>
+    )}
   </body>
 </html>
