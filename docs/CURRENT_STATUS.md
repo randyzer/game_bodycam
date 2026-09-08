@@ -4,9 +4,10 @@
 
 - Game: Bodycam
 - Site identity: Bodycam Guide
-- Repository: not created / current directory not a git repository
-- Deployment: none
-- Domain: unknown; runtime config uses reserved placeholder `https://bodycam-guide.example`
+- Repository: initialized and pushed to `https://github.com/randyzer/game_bodycam.git`
+- Release tag: `v1.0.0` remains historical release-candidate provenance
+- Deployment: Vercel project `game-bodycam`; custom production domain not yet bound
+- Domain: planned `https://bodycamwiki.top`; runtime canonical config now uses this production origin
 - Last updated: 2026-09-08
 
 ## Version Provenance
@@ -178,7 +179,7 @@
 ## Environment Notes
 
 - Current Node version: v22.16.0.
-- Starter engine requirement: `>=22.19.0 <23 || >=24.0.0`.
+- Project deployment engine requirement: `>=22.19.0 <23`; Vercel project Node setting targets `22.x`.
 - Required commands pass in the current process despite the earlier `npm ci` engine warning.
 - Astro warning: `src/content/meta` has no MD/MDX files; expected because P2 meta pages are private/deferred.
 
@@ -195,7 +196,7 @@
 - Domain and deployment provider are not approved.
 - Media reuse rights for locally hosted official/Steam screenshots remain unresolved.
 - Weapon/attachment stats, weapon builder formulas, tier lists, player counts, and comparison claims remain deferred.
-- Deployment, commit, push, and tag remain unauthorized.
+- Custom domain binding, DNS, nameserver, registrar, redirects, force push, and release tag mutation remain unauthorized.
 
 ## Next 3 Actions
 

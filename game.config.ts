@@ -9,7 +9,7 @@ export default defineGameConfig({
     tagline: "Source-aware guides for Reissad Studio's Bodycam.",
   },
   site: {
-    url: "https://bodycam-guide.example",
+    url: "https://bodycamwiki.top",
     locale: "en-US",
     timezone: "Asia/Taipei",
   },

@@ -24,6 +24,10 @@ const guidePage = pageInventory.find(
 const guideCatalog = [homePage, guideHub, guidePage];
 
 describe("technical SEO helpers", () => {
+  it("uses the approved production canonical origin", () => {
+    expect(siteConfig.site.url).toBe("https://bodycamwiki.top");
+  });
+
   it("selects only enabled, indexable routes for the sitemap", () => {
     expect(getSitemapRoutes(enabledPageCatalog)).toEqual(
       enabledPageCatalog
@@ -35,6 +39,10 @@ describe("technical SEO helpers", () => {
   it("builds canonical HTTPS URLs from inventory routes", () => {
     expect(buildCanonicalUrl(siteConfig, guideHub.route)).toBe(
       new URL(guideHub.route, siteConfig.site.url).href,
+    );
+    expect(buildCanonicalUrl(siteConfig, "/")).toBe("https://bodycamwiki.top/");
+    expect(buildCanonicalUrl(siteConfig, guidePage.route)).toBe(
+      "https://bodycamwiki.top/guides/getting-started/",
     );
   });
 
