@@ -36,4 +36,3 @@ Use a focused intent-and-CTR patch:
 - `npm run build` will validate the publication inventory and generated static output.
 - After pushing, the matching Vercel deployment must be Ready and aliased to `bodycamwiki.top`.
 - Live HTML must expose the expected title, description, H1/H2, canonical, robots, updated date, and sitemap entries.
-

@@ -57,6 +57,7 @@ export default defineGameConfig({
       "update.locked-loaded",
       "guide.loadouts",
       "guide.maps",
+      "guide.game-modes",
     ],
   },
   features: {

@@ -93,4 +93,3 @@ Use the official Vercel CLI to wait for the deployment whose Git commit matches 
 - [ ] **Step 5: Verify the live pages**
 
 Use the logged-in browser tool to inspect the live homepage, getting-started page, and sitemap. Confirm the deployed metadata and content match the generated output; note that GSC ranking and CTR changes require new search data and cannot be verified immediately.
-
