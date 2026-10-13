@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "run_id": "2026-10-13T163458Z",
+  "game": "Bodycam",
+  "project_path": "/Users/randyz/work/coding/hot_words_web/gameweb/game_bodycam/.worktrees/codex-bodycam-template-rebuild-20261013",
+  "expected_domain": "https://bodycamwiki.top",
+  "mode": "audit-and-repair",
+  "coverage": {
+    "routes_expected": 10,
+    "routes_checked": 10,
+    "limitations": [
+      "External destination checks are limited to first-party research reads, not a bulk link crawl.",
+      "Real-device performance and contrast certification were not measured.",
+      "Live-domain behavior awaits reviewed GitHub/Vercel release."
+    ]
+  },
+  "pages": [
+    {
+      "path": "/",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam guides, settings and modes | Bodycam Wiki",
+      "description": "Independent Bodycam guides for PC players, with official sources for modes, system requirements, maps and updates.",
+      "h1": "BODYCAMFIELD GUIDE",
+      "target_keyword": "未配置",
+      "body_word_count": 625,
+      "keyword_count": 0,
+      "keyword_density": null,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Guides | Bodycam Wiki",
+      "description": "A source-backed reading path for Bodycam on Steam: gameplay, PC requirements, modes, maps, updates and official community links.",
+      "h1": "Bodycam Guides",
+      "target_keyword": "未配置",
+      "body_word_count": 445,
+      "keyword_count": 0,
+      "keyword_density": null,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/gameplay",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Gameplay: What the Official Sources Confirm | Bodycam Wiki",
+      "description": "A clear overview of Bodycam’s body-camera viewpoint, tactical multiplayer modes and the boundaries of current official gameplay information.",
+      "h1": "Bodycam Gameplay: What the Official Sources Confirm",
+      "target_keyword": "Bodycam gameplay",
+      "body_word_count": 495,
+      "keyword_count": 2,
+      "keyword_density": 0.004,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/gameplay/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/system-requirements",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam System Requirements for Windows PC | Bodycam Wiki",
+      "description": "Compare your Windows PC with Bodycam’s official minimum and recommended CPU, GPU, RAM and storage requirements, plus the limits of those Steam listings.",
+      "h1": "Bodycam System Requirements for Windows PC",
+      "target_keyword": "Bodycam system requirements",
+      "body_word_count": 480,
+      "keyword_count": 2,
+      "keyword_density": 0.0042,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/system-requirements/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/zombies",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Zombies: Official Co-op Mode Overview | Bodycam Wiki",
+      "description": "Read what Bodycam’s Steam page confirms about round-based co-op Zombies: waves, ammunition and area progression, with unsupported mode details left open.",
+      "h1": "Bodycam Zombies: Official Co-op Mode Overview",
+      "target_keyword": "Bodycam Zombies",
+      "body_word_count": 451,
+      "keyword_count": 2,
+      "keyword_density": 0.0044,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/zombies/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/trenches",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Trenches: What the Developer Revealed | Bodycam Wiki",
+      "description": "Explore Reissad Studio’s Trenches devlog: the map’s tunnels, combat spaces, dynamic weather and FPV drone areas, with dated sources and clear limits.",
+      "h1": "Bodycam Trenches: What the Developer Revealed",
+      "target_keyword": "Bodycam trenches",
+      "body_word_count": 450,
+      "keyword_count": 2,
+      "keyword_density": 0.0044,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/trenches/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/locked-and-loaded",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Locked & Loaded v0.8: Verified Update Scope | Bodycam Wiki",
+      "description": "Follow the official Bodycam v0.8 Locked & Loaded announcement, its release date, the developer’s devlog topics and a later patch follow-up in context.",
+      "h1": "Bodycam Locked & Loaded v0.8: Verified Update Scope",
+      "target_keyword": "Bodycam Locked and Loaded",
+      "body_word_count": 439,
+      "keyword_count": 0,
+      "keyword_density": null,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/locked-and-loaded/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/steam",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam on Steam: Find the Correct Reissad Studio Game | Bodycam Wiki",
+      "description": "Find the correct Reissad Studio Bodycam on Steam using app ID 2406770, check the live purchase listing and avoid similarly named games or stale prices.",
+      "h1": "Bodycam on Steam: Find the Correct Reissad Studio Game",
+      "target_keyword": "Bodycam Steam",
+      "body_word_count": 452,
+      "keyword_count": 2,
+      "keyword_density": 0.0044,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/steam/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/updates",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Updates: The Official v0.8 Patch Trail | Bodycam Wiki",
+      "description": "Follow the dated Bodycam v0.8 Locked & Loaded announcement and September patch #6, with official links and careful notes on the party system at that time.",
+      "h1": "Bodycam Updates: The Official v0.8 Patch Trail",
+      "target_keyword": "Bodycam update",
+      "body_word_count": 444,
+      "keyword_count": 3,
+      "keyword_density": 0.0068,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/updates/",
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/guides/discord",
+      "release_status": "PUBLISHED",
+      "title": "Bodycam Official Discord: Find the Developer Community | Bodycam Wiki",
+      "description": "Find the developer-linked Bodycam Discord entry point, check its identity before joining and learn what this guide cannot verify inside the server.",
+      "h1": "Bodycam Official Discord: Find the Developer Community",
+      "target_keyword": "Bodycam Discord",
+      "body_word_count": 425,
+      "keyword_count": 1,
+      "keyword_density": 0.0024,
+      "checks": {
+        "desktop": "PASS",
+        "mobile_390": "PASS"
+      },
+      "canonical": "https://bodycamwiki.top/guides/discord/",
+      "robots": "noindex, follow"
+    }
+  ],
+  "checks": [
+    {
+      "name": "local production build, typecheck and tests",
+      "status": "PASS",
+      "evidence": "Next.js build rendered 10 content routes; 4 tests passed; typecheck passed."
+    },
+    {
+      "name": "route membership, canonical, sitemap and 404",
+      "status": "PASS",
+      "evidence": "verify:routes passed for 10 pages; parsed local sitemap has all 10 intended routes and no draft/blocked routes."
+    },
+    {
+      "name": "responsive browser coverage",
+      "status": "PASS",
+      "evidence": "Home measured at 360/390/768/1024/1440/1920; list/article at 390/1440; no document overflow."
+    },
+    {
+      "name": "live production domain",
+      "status": "BLOCKED",
+      "evidence": "New branch not pushed or deployed, per user-requested review gate."
+    },
+    {
+      "name": "advertising feature flag",
+      "status": "PASS",
+      "evidence": "With SITE_ADS_ENABLED=true the static homepage contains the labelled slot, container and supplied script; with false all three are absent."
+    }
+  ],
+  "seo_url_audit": {
+    "robots": {
+      "status": "PASS",
+      "http_status": 200,
+      "sitemap_directives": [
+        "Sitemap: https://bodycamwiki.top/sitemap.xml"
+      ]
+    },
+    "sitemap": {
+      "status": "PASS",
+      "http_status": 200,
+      "loc_count": 10,
+      "domain_mismatches": [],
+      "missing_published_routes": [],
+      "draft_or_blocked_routes": []
+    }
+  },
+  "findings": [
+    {
+      "id": "PL-001",
+      "severity": "P1",
+      "status": "OPEN",
+      "page": "/",
+      "category": "deployment",
+      "evidence": "Vercel first-party CLI reports project framework Astro, install command npm ci, build command npm run build and output directory dist, while the new branch is Next.js/pnpm.",
+      "recommendation": "After reviewed push, update the project to Next.js and remove Astro-specific command/output overrides before promotion.",
+      "source": "vercel project inspect (read-only, 2026-10-14)"
+    },
+    {
+      "id": "PL-002",
+      "severity": "P1",
+      "status": "OPEN",
+      "page": "/",
+      "category": "technical-seo",
+      "evidence": "Vercel project is still bound to productionBranch main. SITE_URL and SITE_INDEXABLE are absent from the production variable-name listing; local preview intentionally uses SITE_INDEXABLE=false.",
+      "recommendation": "After review, set production branch to the new branch and configure SITE_URL=https://bodycamwiki.top plus SITE_INDEXABLE=true, then verify live robots/canonical/sitemap.",
+      "source": "Vercel first-party CLI project/env reads (2026-10-14)"
+    },
+    {
+      "id": "PL-003",
+      "severity": "P2",
+      "status": "OPEN",
+      "page": "/",
+      "category": "advertising/legal",
+      "evidence": "The supplied external ad snippet is included in the new template but disabled by default. The site does not yet state operator/privacy/consent details for that ad provider.",
+      "recommendation": "Review ad placement and applicable privacy/consent disclosures before enabling third-party ad script.",
+      "source": "new source tree and user-provided ad snippet"
+    }
+  ],
+  "repairs": [
+    {
+      "id": "UX-001",
+      "status": "FIXED",
+      "paths": [
+        "content/en/guides/system-requirements.mdx",
+        "src/app/globals.css"
+      ],
+      "evidence": "Browser retest and build passed."
+    }
+  ],
+  "disposition": "暂不建议上线"
+}

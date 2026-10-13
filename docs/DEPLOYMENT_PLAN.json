@@ -1,0 +1,1589 @@
+{
+  "schema_version": 1,
+  "status": "APPROVED",
+  "project": {
+    "path": "/Users/randyz/work/coding/hot_words_web/gameweb/game_bodycam/.worktrees/codex-bodycam-template-rebuild-20261013",
+    "repository": "https://github.com/randyzer/game_bodycam",
+    "branch": "codex/bodycam-template-rebuild-20261013",
+    "commit": "76fcb7290f678af389b58f0b071c8d63073b25d2",
+    "working_tree": "UNCOMMITTED_REPLACEMENT_DIFF"
+  },
+  "github_sync": {
+    "needed": true,
+    "remote": "origin (https://github.com/randyzer/game_bodycam.git)",
+    "target_branch": "codex/bodycam-template-rebuild-20261013",
+    "upstream_state": "TARGET_BRANCH_ABSENT; MAIN_AT_BASE_COMMIT",
+    "files_to_commit": [
+      ".env.example",
+      ".github/workflows/ci.yml",
+      ".gitignore",
+      ".nvmrc",
+      "README.md",
+      "V2.6_STARTER_BASELINE_AUDIT.md",
+      "V2.6_STARTER_CHANGE_PLAN.md",
+      "V2.6_STARTER_IMPLEMENTATION_REPORT.md",
+      "astro.config.ts",
+      "backgroundinformation/Bodycam-icon-master.png",
+      "backgroundinformation/Bodycam图标.zip",
+      "backgroundinformation/Bodycam攻略站首页调研信息.md",
+      "backgroundinformation/keyword-materials/Bodycam Discord素材.md",
+      "backgroundinformation/keyword-materials/Bodycam Locked and Loaded素材.md",
+      "backgroundinformation/keyword-materials/Bodycam PS5素材.md",
+      "backgroundinformation/keyword-materials/Bodycam Steam素材.md",
+      "backgroundinformation/keyword-materials/Bodycam VR素材.md",
+      "backgroundinformation/keyword-materials/Bodycam Xbox素材.md",
+      "backgroundinformation/keyword-materials/Bodycam Zombies素材.md",
+      "backgroundinformation/keyword-materials/Bodycam best loadout素材.md",
+      "backgroundinformation/keyword-materials/Bodycam best settings素材.md",
+      "backgroundinformation/keyword-materials/Bodycam crossplay素材.md",
+      "backgroundinformation/keyword-materials/Bodycam drone素材.md",
+      "backgroundinformation/keyword-materials/Bodycam gameplay素材.md",
+      "backgroundinformation/keyword-materials/Bodycam how to play with friends素材.md",
+      "backgroundinformation/keyword-materials/Bodycam player count素材.md",
+      "backgroundinformation/keyword-materials/Bodycam price素材.md",
+      "backgroundinformation/keyword-materials/Bodycam release date素材.md",
+      "backgroundinformation/keyword-materials/Bodycam single player素材.md",
+      "backgroundinformation/keyword-materials/Bodycam system requirements素材.md",
+      "backgroundinformation/keyword-materials/Bodycam trenches素材.md",
+      "backgroundinformation/keyword-materials/Bodycam update素材.md",
+      "backgroundinformation/keyword-materials/keywords.json",
+      "backgroundinformation/keyword-materials/关键词.md",
+      "backgroundinformation/keyword-materials/关键词处理记录.md",
+      "backgroundinformation/keyword-materials/关键词素材汇总.md",
+      "content/en/guides/discord.mdx",
+      "content/en/guides/gameplay.mdx",
+      "content/en/guides/index.mdx",
+      "content/en/guides/locked-and-loaded.mdx",
+      "content/en/guides/steam.mdx",
+      "content/en/guides/system-requirements.mdx",
+      "content/en/guides/trenches.mdx",
+      "content/en/guides/updates.mdx",
+      "content/en/guides/zombies.mdx",
+      "docs/ADS_MONETIZATION_REPAIR_REPORT.md",
+      "docs/ARCHITECTURE_PROPOSAL.md",
+      "docs/COMPETITOR_ANALYSIS.md",
+      "docs/CONTENT_GAPS.md",
+      "docs/CONTENT_INTEGRATION_REPORT.md",
+      "docs/CONTENT_PAGE_MANIFEST.json",
+      "docs/CONTENT_PROVENANCE.md",
+      "docs/CURRENT_STATUS.md",
+      "docs/DEPLOYMENT_PLAN.json",
+      "docs/DEPLOYMENT_PLAN.md",
+      "docs/HUMAN_VISUAL_REVIEW_EVIDENCE.md",
+      "docs/KEYWORD_RESEARCH.md",
+      "docs/MEDIA_DECISION_TABLE.md",
+      "docs/P0_P1_P2.md",
+      "docs/PAGE_INVENTORY.md",
+      "docs/PHASE_2_IMPLEMENTATION_REPORT.md",
+      "docs/PHASE_3_CONTENT_MEDIA_REPORT.md",
+      "docs/PHASE_4_RELEASE_READINESS_REPORT.md",
+      "docs/PROJECT_BRIEF.md",
+      "docs/RESEARCH_SOURCES.md",
+      "docs/SITE_STRUCTURE.md",
+      "docs/SOP_READING_REPORT.md",
+      "docs/TEMPLATE_RESIDUE_SCAN.json",
+      "docs/TEMPLATE_SELECTION_REPORT.md",
+      "docs/V2.6_SYSTEM_DEFECT_OBSERVATION.md",
+      "docs/phase-2-evidence/getting-started-desktop.png",
+      "docs/phase-2-evidence/guides-mobile.png",
+      "docs/phase-2-evidence/home-desktop.png",
+      "docs/phase-2-evidence/home-mobile.png",
+      "docs/phase-2-evidence/locked-loaded-desktop.png",
+      "docs/phase-2-evidence/maps-desktop.png",
+      "docs/phase-2-evidence/search-mobile.png",
+      "docs/phase-2-evidence/system-requirements-desktop.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/best-settings-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/faq-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/getting-started-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/home-desktop.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/home-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/loadouts-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/locked-loaded-desktop.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/maps-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/search-mobile-390.png",
+      "docs/phase-3-human-gate-repair-evidence-cdp-20260908/zombies-mobile-390.png",
+      "docs/prelaunch/20261013-163418/PRELAUNCH_ACCEPTANCE.json",
+      "docs/prelaunch/20261013-163418/PRELAUNCH_ACCEPTANCE_REPORT.md",
+      "docs/prelaunch/20261013-163418/REPAIR_MANIFEST.md",
+      "docs/superpowers/plans/2026-09-12-bodycam-search-intent.md",
+      "docs/superpowers/plans/2026-09-15-ad-placement.md",
+      "docs/superpowers/specs/2026-09-12-bodycam-search-intent-design.md",
+      "docs/template-copy-manifest.json",
+      "docs/ui-ux-audit/20261013-163418/UI_UX_AUDIT.json",
+      "docs/ui-ux-audit/20261013-163418/UI_UX_AUDIT_REPORT.md",
+      "docs/ui-ux-audit/20261013-163418/UI_UX_CHANGE_MANIFEST.md",
+      "docs/ui-ux-audit/20261013-163418/UI_UX_OPTIMIZATION_PLAN.md",
+      "docs/ui-ux-audit/20261013-163418/UI_UX_RETEST_REPORT.md",
+      "docs/ui-ux-audit/20261013-163418/screenshots-after/system-requirements-table-desktop-1440.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots-after/system-requirements-table-mobile-390.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/guides-desktop-1440.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/guides-mobile-390.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/home-desktop-1440.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/home-mobile-390.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-before.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-mobile-390.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-table-desktop-1440.png",
+      "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-table-mobile-390.png",
+      "docs/ui-ux-audit/LATEST",
+      "game.config.ts",
+      "next-env.d.ts",
+      "next.config.ts",
+      "package-lock.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "pnpm-workspace.yaml",
+      "postcss.config.mjs",
+      "public/android-chrome-192x192.png",
+      "public/android-chrome-512x512.png",
+      "public/apple-touch-icon.png",
+      "public/favicon-16x16.png",
+      "public/favicon-32x32.png",
+      "public/favicon.ico",
+      "public/favicon.svg",
+      "public/images/bodycam-field.svg",
+      "public/logo.svg",
+      "public/media/README.md",
+      "public/site.webmanifest",
+      "scripts/audit-build.ts",
+      "scripts/bodycam-media-readiness.ts",
+      "scripts/media-validation.ts",
+      "scripts/patch-impact.ts",
+      "scripts/reconcile-output.ts",
+      "scripts/validate-site.ts",
+      "scripts/verify-routes.ts",
+      "src/app/[[...path]]/layout.tsx",
+      "src/app/[[...path]]/not-found.tsx",
+      "src/app/[[...path]]/page.tsx",
+      "src/app/global-not-found.tsx",
+      "src/app/globals.css",
+      "src/app/robots.ts",
+      "src/app/sitemap.ts",
+      "src/components/EditorialArticle.astro",
+      "src/components/EntityDatabase.astro",
+      "src/components/EntityDetail.astro",
+      "src/components/Footer.astro",
+      "src/components/Header.astro",
+      "src/components/LegalPage.astro",
+      "src/components/StaticWikiPage.astro",
+      "src/components/ToolShell.astro",
+      "src/components/ad-slot.tsx",
+      "src/components/ads/AdSlot.astro",
+      "src/components/document.tsx",
+      "src/components/footer.tsx",
+      "src/components/header.tsx",
+      "src/components/home.tsx",
+      "src/components/home/GameHero.astro",
+      "src/components/home/PageCollection.astro",
+      "src/components/home/WikiCategories.astro",
+      "src/components/home/home-model.ts",
+      "src/components/islands/CalculatorIsland.tsx",
+      "src/components/islands/EntityFilterIsland.tsx",
+      "src/components/islands/PlannerIsland.tsx",
+      "src/components/islands/SearchIsland.tsx",
+      "src/components/media/GameMedia.astro",
+      "src/components/media/ScreenshotGallery.astro",
+      "src/components/media/VideoEmbed.astro",
+      "src/components/navigation/DesktopNav.astro",
+      "src/components/navigation/MobileNav.astro",
+      "src/components/primitives.tsx",
+      "src/components/wiki/FAQ.astro",
+      "src/components/wiki/QuickFacts.astro",
+      "src/components/wiki/RelatedPages.astro",
+      "src/components/wiki/Sources.astro",
+      "src/components/wiki/WikiArticle.astro",
+      "src/components/wiki/wiki-article.ts",
+      "src/config/load-config.ts",
+      "src/config/schema.ts",
+      "src/content.config.ts",
+      "src/content/guides/best-settings.mdx",
+      "src/content/guides/controls.mdx",
+      "src/content/guides/game-modes.mdx",
+      "src/content/guides/getting-started.mdx",
+      "src/content/guides/loadouts-and-attachments.mdx",
+      "src/content/guides/maps.mdx",
+      "src/content/guides/system-requirements.mdx",
+      "src/content/guides/tactical-tablet.mdx",
+      "src/content/guides/zombies.mdx",
+      "src/content/meta/README.txt",
+      "src/content/news/README.txt",
+      "src/content/news/locked-and-loaded.mdx",
+      "src/content/news/v0-8-patch-notes.mdx",
+      "src/core/brand.ts",
+      "src/core/catalog.ts",
+      "src/core/content-files.ts",
+      "src/core/entity-route-model.ts",
+      "src/core/fact-loader.ts",
+      "src/core/filter-state.ts",
+      "src/core/html-audit.ts",
+      "src/core/media-readiness.ts",
+      "src/core/optional-routes.ts",
+      "src/core/output-reconciliation.ts",
+      "src/core/page-models.ts",
+      "src/core/page-resolution.ts",
+      "src/core/patch-impact.ts",
+      "src/core/search-state.ts",
+      "src/core/seo.ts",
+      "src/core/site-data.ts",
+      "src/core/site-validation.ts",
+      "src/core/static-page-copy.ts",
+      "src/core/third-party-scripts.ts",
+      "src/core/tool-definitions.ts",
+      "src/core/tool-loader.ts",
+      "src/data/entity-modules.ts",
+      "src/data/facts/README.md",
+      "src/data/media/catalog.ts",
+      "src/data/media/media.json",
+      "src/data/page-inventory.json",
+      "src/data/schemas/facts.ts",
+      "src/data/schemas/media.ts",
+      "src/data/schemas/page-inventory.ts",
+      "src/data/schemas/provenance.ts",
+      "src/data/schemas/tools.ts",
+      "src/data/tools/README.md",
+      "src/layouts/BaseLayout.astro",
+      "src/lib/content.ts",
+      "src/lib/guide-items.ts",
+      "src/lib/i18n.ts",
+      "src/lib/messages.ts",
+      "src/lib/seo.ts",
+      "src/pages/faq.astro",
+      "src/pages/guides/[...slug].astro",
+      "src/pages/heroes/[...path].astro",
+      "src/pages/index.astro",
+      "src/pages/items/[...path].astro",
+      "src/pages/maps/[...path].astro",
+      "src/pages/meta/[slug].astro",
+      "src/pages/official-links.astro",
+      "src/pages/robots.txt.ts",
+      "src/pages/search/[...path].astro",
+      "src/pages/tools/[slug].astro",
+      "src/pages/updates/[slug].astro",
+      "src/pages/weapons/[...path].astro",
+      "src/styles/global.css",
+      "src/styles/page-families.css",
+      "src/styles/theme.css",
+      "tests/ad-placement.test.ts",
+      "tests/bodycam-media-readiness.test.ts",
+      "tests/bodycam-phase2.test.ts",
+      "tests/bodycam-phase3-content.test.ts",
+      "tests/bodycam-search-intent.test.ts",
+      "tests/brand.test.ts",
+      "tests/catalog.test.ts",
+      "tests/config.test.ts",
+      "tests/content-files.test.ts",
+      "tests/content.test.ts",
+      "tests/entity-modules.test.ts",
+      "tests/entity-route-model.test.ts",
+      "tests/fact-loader.test.ts",
+      "tests/facts.test.ts",
+      "tests/filter-state.test.ts",
+      "tests/fixtures/media/media-rich.json",
+      "tests/fixtures/media/qa-detail.svg",
+      "tests/fixtures/media/qa-overview.svg",
+      "tests/homepage.test.ts",
+      "tests/html-audit.test.ts",
+      "tests/media-audit.test.ts",
+      "tests/media-build.test.ts",
+      "tests/media-readiness.test.ts",
+      "tests/media-rendering.test.ts",
+      "tests/media.test.ts",
+      "tests/navigation.test.ts",
+      "tests/optional-routes.test.ts",
+      "tests/output-reconciliation.test.ts",
+      "tests/page-models.test.ts",
+      "tests/page-resolution.test.ts",
+      "tests/patch-impact.test.ts",
+      "tests/player-facing-metadata.test.ts",
+      "tests/release-identity.test.ts",
+      "tests/search-state.test.ts",
+      "tests/seo.test.ts",
+      "tests/site-data.test.ts",
+      "tests/site-validation.test.ts",
+      "tests/static-page-copy.test.ts",
+      "tests/theme.test.ts",
+      "tests/third-party-scripts.test.ts",
+      "tests/tool-definitions.test.ts",
+      "tests/wiki-article.test.ts",
+      "tsconfig.json",
+      "vitest.config.ts",
+      "wrangler.jsonc"
+    ],
+    "file_changes": [
+      {
+        "status": "A",
+        "path": ".env.example"
+      },
+      {
+        "status": "M",
+        "path": ".github/workflows/ci.yml"
+      },
+      {
+        "status": "M",
+        "path": ".gitignore"
+      },
+      {
+        "status": "D",
+        "path": ".nvmrc"
+      },
+      {
+        "status": "M",
+        "path": "README.md"
+      },
+      {
+        "status": "D",
+        "path": "V2.6_STARTER_BASELINE_AUDIT.md"
+      },
+      {
+        "status": "D",
+        "path": "V2.6_STARTER_CHANGE_PLAN.md"
+      },
+      {
+        "status": "D",
+        "path": "V2.6_STARTER_IMPLEMENTATION_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "astro.config.ts"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/Bodycam-icon-master.png"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/Bodycam图标.zip"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/Bodycam攻略站首页调研信息.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam Discord素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam Locked and Loaded素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam PS5素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam Steam素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam VR素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam Xbox素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam Zombies素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam best loadout素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam best settings素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam crossplay素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam drone素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam gameplay素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam how to play with friends素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam player count素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam price素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam release date素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam single player素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam system requirements素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam trenches素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/Bodycam update素材.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/keywords.json"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/关键词.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/关键词处理记录.md"
+      },
+      {
+        "status": "A",
+        "path": "backgroundinformation/keyword-materials/关键词素材汇总.md"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/discord.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/gameplay.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/index.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/locked-and-loaded.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/steam.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/system-requirements.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/trenches.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/updates.mdx"
+      },
+      {
+        "status": "A",
+        "path": "content/en/guides/zombies.mdx"
+      },
+      {
+        "status": "D",
+        "path": "docs/ADS_MONETIZATION_REPAIR_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/ARCHITECTURE_PROPOSAL.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/COMPETITOR_ANALYSIS.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/CONTENT_GAPS.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/CONTENT_INTEGRATION_REPORT.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/CONTENT_PAGE_MANIFEST.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/CONTENT_PROVENANCE.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/CURRENT_STATUS.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/DEPLOYMENT_PLAN.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/DEPLOYMENT_PLAN.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/HUMAN_VISUAL_REVIEW_EVIDENCE.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/KEYWORD_RESEARCH.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/MEDIA_DECISION_TABLE.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/P0_P1_P2.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/PAGE_INVENTORY.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/PHASE_2_IMPLEMENTATION_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/PHASE_3_CONTENT_MEDIA_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/PHASE_4_RELEASE_READINESS_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/PROJECT_BRIEF.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/RESEARCH_SOURCES.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/SITE_STRUCTURE.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/SOP_READING_REPORT.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/TEMPLATE_RESIDUE_SCAN.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/TEMPLATE_SELECTION_REPORT.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/V2.6_SYSTEM_DEFECT_OBSERVATION.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/getting-started-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/guides-mobile.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/home-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/home-mobile.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/locked-loaded-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/maps-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/search-mobile.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-2-evidence/system-requirements-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/best-settings-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/faq-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/getting-started-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/home-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/home-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/loadouts-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/locked-loaded-desktop.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/maps-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/search-mobile-390.png"
+      },
+      {
+        "status": "D",
+        "path": "docs/phase-3-human-gate-repair-evidence-cdp-20260908/zombies-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/prelaunch/20261013-163418/PRELAUNCH_ACCEPTANCE.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/prelaunch/20261013-163418/PRELAUNCH_ACCEPTANCE_REPORT.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/prelaunch/20261013-163418/REPAIR_MANIFEST.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/superpowers/plans/2026-09-12-bodycam-search-intent.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/superpowers/plans/2026-09-15-ad-placement.md"
+      },
+      {
+        "status": "D",
+        "path": "docs/superpowers/specs/2026-09-12-bodycam-search-intent-design.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/template-copy-manifest.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/UI_UX_AUDIT.json"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/UI_UX_AUDIT_REPORT.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/UI_UX_CHANGE_MANIFEST.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/UI_UX_OPTIMIZATION_PLAN.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/UI_UX_RETEST_REPORT.md"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots-after/system-requirements-table-desktop-1440.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots-after/system-requirements-table-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/guides-desktop-1440.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/guides-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/home-desktop-1440.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/home-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-before.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-table-desktop-1440.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/20261013-163418/screenshots/system-requirements-table-mobile-390.png"
+      },
+      {
+        "status": "A",
+        "path": "docs/ui-ux-audit/LATEST"
+      },
+      {
+        "status": "D",
+        "path": "game.config.ts"
+      },
+      {
+        "status": "A",
+        "path": "next-env.d.ts"
+      },
+      {
+        "status": "A",
+        "path": "next.config.ts"
+      },
+      {
+        "status": "D",
+        "path": "package-lock.json"
+      },
+      {
+        "status": "M",
+        "path": "package.json"
+      },
+      {
+        "status": "A",
+        "path": "pnpm-lock.yaml"
+      },
+      {
+        "status": "A",
+        "path": "pnpm-workspace.yaml"
+      },
+      {
+        "status": "A",
+        "path": "postcss.config.mjs"
+      },
+      {
+        "status": "A",
+        "path": "public/android-chrome-192x192.png"
+      },
+      {
+        "status": "A",
+        "path": "public/android-chrome-512x512.png"
+      },
+      {
+        "status": "A",
+        "path": "public/apple-touch-icon.png"
+      },
+      {
+        "status": "A",
+        "path": "public/favicon-16x16.png"
+      },
+      {
+        "status": "A",
+        "path": "public/favicon-32x32.png"
+      },
+      {
+        "status": "A",
+        "path": "public/favicon.ico"
+      },
+      {
+        "status": "D",
+        "path": "public/favicon.svg"
+      },
+      {
+        "status": "A",
+        "path": "public/images/bodycam-field.svg"
+      },
+      {
+        "status": "D",
+        "path": "public/logo.svg"
+      },
+      {
+        "status": "D",
+        "path": "public/media/README.md"
+      },
+      {
+        "status": "A",
+        "path": "public/site.webmanifest"
+      },
+      {
+        "status": "D",
+        "path": "scripts/audit-build.ts"
+      },
+      {
+        "status": "D",
+        "path": "scripts/bodycam-media-readiness.ts"
+      },
+      {
+        "status": "D",
+        "path": "scripts/media-validation.ts"
+      },
+      {
+        "status": "D",
+        "path": "scripts/patch-impact.ts"
+      },
+      {
+        "status": "D",
+        "path": "scripts/reconcile-output.ts"
+      },
+      {
+        "status": "D",
+        "path": "scripts/validate-site.ts"
+      },
+      {
+        "status": "A",
+        "path": "scripts/verify-routes.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/app/[[...path]]/layout.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/app/[[...path]]/not-found.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/app/[[...path]]/page.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/app/global-not-found.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/app/globals.css"
+      },
+      {
+        "status": "A",
+        "path": "src/app/robots.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/app/sitemap.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/components/EditorialArticle.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/EntityDatabase.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/EntityDetail.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/Footer.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/Header.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/LegalPage.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/StaticWikiPage.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/ToolShell.astro"
+      },
+      {
+        "status": "A",
+        "path": "src/components/ad-slot.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/ads/AdSlot.astro"
+      },
+      {
+        "status": "A",
+        "path": "src/components/document.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/components/footer.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/components/header.tsx"
+      },
+      {
+        "status": "A",
+        "path": "src/components/home.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/home/GameHero.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/home/PageCollection.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/home/WikiCategories.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/home/home-model.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/components/islands/CalculatorIsland.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/islands/EntityFilterIsland.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/islands/PlannerIsland.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/islands/SearchIsland.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/media/GameMedia.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/media/ScreenshotGallery.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/media/VideoEmbed.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/navigation/DesktopNav.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/navigation/MobileNav.astro"
+      },
+      {
+        "status": "A",
+        "path": "src/components/primitives.tsx"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/FAQ.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/QuickFacts.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/RelatedPages.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/Sources.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/WikiArticle.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/components/wiki/wiki-article.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/config/load-config.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/config/schema.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/content.config.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/best-settings.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/controls.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/game-modes.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/getting-started.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/loadouts-and-attachments.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/maps.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/system-requirements.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/tactical-tablet.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/guides/zombies.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/meta/README.txt"
+      },
+      {
+        "status": "D",
+        "path": "src/content/news/README.txt"
+      },
+      {
+        "status": "D",
+        "path": "src/content/news/locked-and-loaded.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/content/news/v0-8-patch-notes.mdx"
+      },
+      {
+        "status": "D",
+        "path": "src/core/brand.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/catalog.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/content-files.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/entity-route-model.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/fact-loader.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/filter-state.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/html-audit.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/media-readiness.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/optional-routes.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/output-reconciliation.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/page-models.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/page-resolution.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/patch-impact.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/search-state.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/seo.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/site-data.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/site-validation.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/static-page-copy.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/third-party-scripts.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/tool-definitions.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/core/tool-loader.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/entity-modules.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/facts/README.md"
+      },
+      {
+        "status": "D",
+        "path": "src/data/media/catalog.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/media/media.json"
+      },
+      {
+        "status": "D",
+        "path": "src/data/page-inventory.json"
+      },
+      {
+        "status": "D",
+        "path": "src/data/schemas/facts.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/schemas/media.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/schemas/page-inventory.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/schemas/provenance.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/schemas/tools.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/data/tools/README.md"
+      },
+      {
+        "status": "D",
+        "path": "src/layouts/BaseLayout.astro"
+      },
+      {
+        "status": "A",
+        "path": "src/lib/content.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/lib/guide-items.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/lib/i18n.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/lib/messages.ts"
+      },
+      {
+        "status": "A",
+        "path": "src/lib/seo.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/faq.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/guides/[...slug].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/heroes/[...path].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/index.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/items/[...path].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/maps/[...path].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/meta/[slug].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/official-links.astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/robots.txt.ts"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/search/[...path].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/tools/[slug].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/updates/[slug].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/pages/weapons/[...path].astro"
+      },
+      {
+        "status": "D",
+        "path": "src/styles/global.css"
+      },
+      {
+        "status": "D",
+        "path": "src/styles/page-families.css"
+      },
+      {
+        "status": "D",
+        "path": "src/styles/theme.css"
+      },
+      {
+        "status": "D",
+        "path": "tests/ad-placement.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/bodycam-media-readiness.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/bodycam-phase2.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/bodycam-phase3-content.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/bodycam-search-intent.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/brand.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/catalog.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/config.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/content-files.test.ts"
+      },
+      {
+        "status": "A",
+        "path": "tests/content.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/entity-modules.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/entity-route-model.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/fact-loader.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/facts.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/filter-state.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/fixtures/media/media-rich.json"
+      },
+      {
+        "status": "D",
+        "path": "tests/fixtures/media/qa-detail.svg"
+      },
+      {
+        "status": "D",
+        "path": "tests/fixtures/media/qa-overview.svg"
+      },
+      {
+        "status": "D",
+        "path": "tests/homepage.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/html-audit.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/media-audit.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/media-build.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/media-readiness.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/media-rendering.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/media.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/navigation.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/optional-routes.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/output-reconciliation.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/page-models.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/page-resolution.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/patch-impact.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/player-facing-metadata.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/release-identity.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/search-state.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/seo.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/site-data.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/site-validation.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/static-page-copy.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/theme.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/third-party-scripts.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/tool-definitions.test.ts"
+      },
+      {
+        "status": "D",
+        "path": "tests/wiki-article.test.ts"
+      },
+      {
+        "status": "M",
+        "path": "tsconfig.json"
+      },
+      {
+        "status": "D",
+        "path": "vitest.config.ts"
+      },
+      {
+        "status": "D",
+        "path": "wrangler.jsonc"
+      }
+    ],
+    "commit_message": "feat: rebuild Bodycam guide site from verified template",
+    "push_authorized": true,
+    "push_triggers_production_deploy": false,
+    "push_triggers_preview_deploy": true,
+    "local_commit": "",
+    "remote_commit": ""
+  },
+  "architecture": {
+    "framework": "Next.js 16.4.0",
+    "runtime": "NODE_22_SSG_WITH_NEXT_RUNTIME",
+    "package_manager": "pnpm 12.6.0; lockfileVersion 9.0",
+    "build_command": "pnpm build",
+    "output_directory": "Vercel Next.js framework default (remove existing dist override)",
+    "evidence": [
+      "pnpm install --frozen-lockfile --offline passed",
+      "pnpm test: 4 passed",
+      "pnpm typecheck passed",
+      "local production build passed",
+      "local production preview verified 10 pages, SEO state and sitemap",
+      "content integration validator: 20 topics, 8 published, 9 draft, 3 blocked, zero errors/warnings"
+    ]
+  },
+  "hosting": {
+    "recommended_provider": "Vercel",
+    "fallback_provider": "None authorized; keep existing Vercel project and re-plan if preview fails",
+    "account_or_team": "randyzers-projects",
+    "project_name": "game-bodycam",
+    "reason": "User requested Vercel and the existing project already owns both Bodycam domains. Current settings are Astro and must be updated before preview."
+  },
+  "domain": {
+    "registrar": "Third Party (name not shown by Vercel CLI)",
+    "dns_provider": "Cloudflare (current NS nola.ns.cloudflare.com, sage.ns.cloudflare.com)",
+    "nameservers": [
+      "nola.ns.cloudflare.com",
+      "sage.ns.cloudflare.com"
+    ],
+    "current_host": "Vercel project game-bodycam, current production branch main",
+    "production_origin": "https://bodycamwiki.top",
+    "canonical_origin": "https://bodycamwiki.top",
+    "redirects": [
+      "Verify www.bodycamwiki.top redirects or canonicalizes to apex after deployment; current behavior not yet established."
+    ],
+    "existing_records_reviewed": false,
+    "dns_changes": []
+  },
+  "required_environment": [
+    {
+      "name": "SITE_URL",
+      "production": "https://bodycamwiki.top",
+      "preview": "https://bodycamwiki.top",
+      "secret": false
+    },
+    {
+      "name": "SITE_INDEXABLE",
+      "production": "true",
+      "preview": "false",
+      "secret": false
+    },
+    {
+      "name": "SITE_ADS_ENABLED",
+      "production": "false",
+      "preview": "false",
+      "secret": false
+    }
+  ],
+  "provider_changes_after_approval": [
+    "Change framework preset Astro to Next.js.",
+    "Clear npm ci, npm run build and dist project overrides so framework and lockfile detection apply.",
+    "Keep Node.js 22.x and root directory .",
+    "Configure the three non-secret environment variables by environment.",
+    "After the pushed branch passes preview verification, change Production Branch from main to codex/bodycam-template-rebuild-20261013 and create a production deployment from its verified commit."
+  ],
+  "budget_preference": "Current project is Hobby; no plan upgrade or purchase. Future usage/cost unknown.",
+  "confirmation": {
+    "status": "APPROVED",
+    "confirmed_at": "2026-10-14T00:49:07.273984+08:00",
+    "source": "User reply: 批准"
+  },
+  "measurement": {
+    "gsc_property": "not provided; no change proposed in this release",
+    "sitemap_url": "https://bodycamwiki.top/sitemap.xml",
+    "ga4_property": "not provided; no change proposed in this release",
+    "measurement_id_configured": false
+  },
+  "checks": [
+    "Local 10-route source/build gate passed.",
+    "UI/UX table repair browser-retested at 390px and 1440px.",
+    "Source-template identity and placeholder scans passed.",
+    "Credential-pattern scan of 98 added/modified text files found no likely secret.",
+    "Remote main equals local base; target branch does not exist.",
+    "Vercel preview and production checks remain pending."
+  ],
+  "risks": [
+    "Vercel package-manager documentation currently lists pnpm through v10 while local uses v12; preview install must prove compatibility or the plan must be revised.",
+    "Project-level Astro overrides would break the new Next.js build if retained.",
+    "Changing the production branch without a new verified deployment may leave the old production deployment active.",
+    "Advertising remains disabled until operator/privacy review.",
+    "Main remains the GitHub default branch and keeps the prior Astro source; do not merge this replacement into main."
+  ],
+  "rollback": [
+    "Keep main and the current production deployment untouched during preview.",
+    "If production verification fails, reselect main as Vercel Production Branch, restore Astro/npm/dist project settings and redeploy the last known-good main commit.",
+    "Do not rewrite branch history, force push, modify DNS or delete existing deployments."
+  ]
+}

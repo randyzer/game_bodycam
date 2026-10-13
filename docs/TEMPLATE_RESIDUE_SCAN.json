@@ -1,0 +1,577 @@
+{
+  "schema_version": 1,
+  "game": "Bodycam",
+  "source_template": "temp5_based_bombfarm.wiki",
+  "destination": "/Users/randyz/work/coding/hot_words_web/gameweb/game_bodycam/.worktrees/codex-bodycam-template-rebuild-20261013",
+  "scan_status": "COMPLETE",
+  "scope": [
+    "robots.ts",
+    "sitemap.ts",
+    "metadata/config",
+    "public copy",
+    "routes",
+    "MDX content",
+    "assets"
+  ],
+  "candidate_source_identities": {
+    "game_names": [
+      "Quarry Field",
+      "Bomb Farm"
+    ],
+    "brands": [
+      "Quarry Field Guide"
+    ],
+    "domains": [
+      "bombfarm.wiki"
+    ],
+    "routes": [
+      "/guides/",
+      "/guides/how-to-play/"
+    ]
+  },
+  "matches": [
+    {
+      "file": "README.md",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "README.md",
+      "type": "source_asset",
+      "value": "quarry-board.svg",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "package.json",
+      "type": "source_package",
+      "value": "quarry-field-guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/how-to-play.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/de/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/how-to-play.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/en/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/how-to-play.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/es/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/how-to-play.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/pt-BR/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/how-to-play.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/how-to-play.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "content/zh-CN/guides/index.mdx",
+      "type": "source_game",
+      "value": "Bomb Farm",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "public/images/quarry-board.svg",
+      "type": "source_brand",
+      "value": "QUARRY FIELD",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/document.tsx",
+      "type": "source_asset",
+      "value": "quarry-board.svg",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/footer.tsx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/home.tsx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/primitives.tsx",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/primitives.tsx",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/components/primitives.tsx",
+      "type": "source_asset",
+      "value": "quarry-board.svg",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/messages.ts",
+      "type": "source_brand",
+      "value": "Quarry Field",
+      "confidence": "HIGH"
+    },
+    {
+      "file": "src/lib/seo.ts",
+      "type": "source_brand",
+      "value": "Quarry Field Guide",
+      "confidence": "HIGH"
+    }
+  ],
+  "limitations": [
+    "Scan detects known identity markers; generic preview labels and visual motifs need manual adaptation review."
+  ]
+}

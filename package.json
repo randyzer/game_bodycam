@@ -1,41 +1,6 @@
 {
-  "name": "bodycam-guide",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "engines": {
-    "node": ">=22.19.0 <23"
-  },
-  "scripts": {
-    "dev": "astro dev",
-    "validate": "tsx scripts/validate-site.ts",
-    "check": "astro check && vitest run",
-    "build": "npm run validate && astro build && tsx scripts/reconcile-output.ts && pagefind --site dist && tsx scripts/audit-build.ts",
-    "deploy:dry-run": "npm run build && wrangler deploy --dry-run",
-    "patch:impact": "tsx scripts/patch-impact.ts",
-    "preview": "astro preview",
-    "test": "vitest run",
-    "test:watch": "vitest"
-  },
-  "dependencies": {
-    "@astrojs/mdx": "8.0.0",
-    "@astrojs/react": "6.0.5",
-    "@astrojs/sitemap": "3.7.4",
-    "astro": "7.2.10",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "zod": "4.5.4"
-  },
-  "devDependencies": {
-    "@astrojs/check": "0.9.10",
-    "@tailwindcss/vite": "4.3.3",
-    "@types/react": "19.2.18",
-    "@types/react-dom": "19.2.5",
-    "pagefind": "1.5.2",
-    "tailwindcss": "4.3.3",
-    "tsx": "4.23.13",
-    "typescript": "6.0.3",
-    "vitest": "4.1.11",
-    "wrangler": "4.127.1"
-  }
+  "name": "bodycam-field-guide", "version": "1.0.0", "private": true, "type": "module", "packageManager": "pnpm@12.6.0",
+  "scripts": { "dev": "NEXT_TELEMETRY_DISABLED=1 next dev", "build": "NEXT_TELEMETRY_DISABLED=1 next build", "start": "NEXT_TELEMETRY_DISABLED=1 next start", "typecheck": "next typegen && tsc --noEmit", "test": "tsx --test tests/*.test.ts", "verify:routes": "tsx scripts/verify-routes.ts" },
+  "dependencies": { "@fontsource-variable/figtree": "^5.2.0", "@fontsource-variable/oxanium": "^5.2.0", "gray-matter": "4.0.3", "next": "16.4.0", "next-mdx-remote": "6.0.0", "react": "19.3.0", "react-dom": "19.3.0" },
+  "devDependencies": { "@tailwindcss/postcss": "4.3.3", "@types/node": "^22.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "tailwindcss": "4.3.3", "tsx": "^4.20.0", "typescript": "^5.9.0" }
 }
