@@ -3,8 +3,8 @@
   "game": "Bodycam",
   "generated_at": "2026-10-13T16:26:39.480535+00:00",
   "counts": {
-    "published": 8,
-    "draft": 9,
+    "published": 9,
+    "draft": 8,
     "blocked": 3,
     "keywords": 20
   },
@@ -17,8 +17,8 @@
       "outcome": "PUBLISHED",
       "route": "/guides/gameplay",
       "source_file": "content/en/guides/gameplay.mdx",
-      "title_length": 51,
-      "description_length": 140,
+      "title_length": 40,
+      "description_length": 136,
       "last_verified": "2026-10-14",
       "notes": []
     },
@@ -40,14 +40,14 @@
       "category": "Guide",
       "material_file": "backgroundinformation/keyword-materials/Bodycam best settings素材.md",
       "material_status": "PARTIAL",
-      "outcome": "DRAFT",
-      "route": null,
-      "source_file": null,
-      "title_length": null,
-      "description_length": null,
+      "outcome": "PUBLISHED",
+      "route": "/guides/best-settings",
+      "source_file": "content/en/guides/best-settings.mdx",
+      "title_length": 37,
+      "description_length": 134,
       "last_verified": "2026-10-14",
       "notes": [
-        "No public route while this intent lacks a current, complete first-party answer."
+        "Published as a source-backed testing procedure, not a universal preset or benchmark; exact options still need current-build observation."
       ]
     },
     {
@@ -58,8 +58,8 @@
       "outcome": "PUBLISHED",
       "route": "/guides/zombies",
       "source_file": "content/en/guides/zombies.mdx",
-      "title_length": 45,
-      "description_length": 153,
+      "title_length": 38,
+      "description_length": 132,
       "last_verified": "2026-10-14",
       "notes": []
     },

@@ -1,0 +1,43 @@
+---
+title: 'Bodycam Best Settings: A PC Test Plan'
+description: 'Find usable Bodycam graphics and input settings on your own PC with a repeatable baseline, symptom-to-action table and rollback steps.'
+category: Setup
+publishedAt: '2026-10-14'
+faq:
+- question: Is there one best Bodycam preset for every PC?
+  answer: No. Steam's listed hardware is a compatibility baseline, and resolution, drivers and your target frame rate affect the result.
+- question: What should I change first for poor visibility?
+  answer: Save your current settings, compare the same scene, and test an available image-effect option such as Film Grain one change at a time.
+---
+
+**Quick answer:** save your current settings, choose one repeatable scene, change one option, and compare both clarity and frame pacing before keeping it. A universal “best settings” preset is not supported by the official material. Start by checking the <GuideLink slug="guides/system-requirements">Steam PC requirements</GuideLink> against your hardware.
+
+## Make a baseline you can restore
+
+1. In the Shooting Range HUB, use the tactical tablet's settings area. Record your display resolution, graphics preset, frame-rate target and any image-effect options shown in your installed build. A photo of your own menu is useful here.
+2. Test the same spot at the range for about one minute. Note whether the problem is low average FPS, brief stutters, blurred visibility or input feel. Use the same resolution, location and camera movement for every comparison.
+3. Change **one** option, retest, then keep or roll back the change. Do not combine a driver update, resolution change and preset change in the same test.
+4. After an Early Access update, rerun the baseline; the same preset may behave differently.
+
+## Match the symptom to the next test
+
+<div className="table-scroll" role="region" aria-label="Bodycam settings test plan" tabIndex={0}>
+  <table>
+    <thead><tr><th scope="col">What you notice</th><th scope="col">Try next, if the option exists in your build</th><th scope="col">Keep the change only if…</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Consistently low frame rate</th><td>Lower a graphics preset or render resolution by one step.</td><td>The same scene improves without making targets too hard to see.</td></tr>
+      <tr><th scope="row">Short stutters</th><td>Close competing background loads and repeat the scene before reducing more image quality.</td><td>Frame pacing becomes steadier across several runs.</td></tr>
+      <tr><th scope="row">Grain obscures detail</th><td>Compare Film Grain on and off, if shown.</td><td>The clearer view still feels comfortable to play.</td></tr>
+      <tr><th scope="row">Motion feels uncomfortable</th><td>Compare any motion-effect controls actually available in your menu.</td><td>You can track a landmark more comfortably at a similar frame rate.</td></tr>
+      <tr><th scope="row">Aim feels inconsistent</th><td>Hold graphics settings steady while testing sensitivity one step at a time.</td><td>The same turn and target check is repeatable.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+The [official site](https://www.playbodycam.com/en-US) describes lens distortion, exposure shifts, motion blur and sensor noise as part of Bodycam's presentation; that does **not** prove each effect has its own toggle. The [Steam description](https://store.steampowered.com/app/2406770/Bodycam/) confirms settings access from the tactical tablet in the Shooting Range HUB. [Patch v0.8 #6](https://steamcommunity.com/games/2406770/announcements/detail/705532193278002608) fixed a Film Grain setting that was not applying properly. If that setting behaves unexpectedly, check your installed version and later patch notes before assuming your preference was saved.
+
+## If the first test fails
+
+Restore the baseline and compare your CPU, GPU, RAM and storage with the published Steam requirements. If the game changed after an update, check <GuideLink slug="guides/updates">the dated update guide</GuideLink> and the current [Steam news](https://steamcommunity.com/app/2406770/allnews/) before chasing an older preset. A recommendation from another PC is a starting hypothesis, not a benchmark for yours.
+
+**Version and source:** Official [Steam requirements](https://store.steampowered.com/app/2406770/Bodycam/), [Reissad Studio website](https://www.playbodycam.com/en-US) and [patch v0.8 #6](https://steamcommunity.com/games/2406770/announcements/detail/705532193278002608), reviewed 14 October 2026. The comparison procedure is this site's advice; exact menu names and available options must be checked in the current build.

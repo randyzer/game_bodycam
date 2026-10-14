@@ -4,10 +4,11 @@ import { useEffect, useRef, useState } from 'react';
 import { localePath, type Locale } from '@/lib/i18n';
 import { Logo, SteamButton } from './primitives';
 const links = [
+  { label: 'Start playing', slug: 'guides/gameplay' },
+  { label: 'Controls', slug: 'guides/controls' },
+  { label: 'Best settings', slug: 'guides/best-settings' },
+  { label: 'Zombies', slug: 'guides/zombies' },
   { label: 'All guides', slug: 'guides' },
-  { label: 'System requirements', slug: 'guides/system-requirements' },
-  { label: 'Modes & Zombies', slug: 'guides/zombies' },
-  { label: 'Updates', slug: 'guides/updates' },
 ];
 export function Header({ locale, slug }: { locale: Locale; slug: string }) {
   const [open, setOpen] = useState(false);

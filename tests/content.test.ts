@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { discoverContent, allRoutes, headings } from '../src/lib/content';
 import { localePath, parsePath } from '../src/lib/i18n';
-import { alternatePaths } from '../src/lib/seo';
+import { alternatePaths, metadata, serializeStructuredData, structuredData } from '../src/lib/seo';
 const valid = '---\ntitle: A real guide\ndescription: A complete guide for a first session.\ncategory: Guide\npublishedAt: "2026-10-14"\n---\n\n## First decision\n\nOriginal content.\n\n## First decision\n\nAnother decision.';
 test('English-only canonical paths fail closed for unsupported locales and traversal', () => {
   assert.equal(localePath('en', 'guides/how-to-play'), '/guides/how-to-play/');
@@ -28,4 +28,32 @@ test('invalid metadata cannot enter route discovery', async () => {
 test('heading anchors are stable and collision-free', () => {
   assert.deepEqual(headings(valid.split('---')[2]),[{text:'First decision',id:'first-decision'},{text:'First decision',id:'first-decision-2'}]);
   const ids=headings('## Foo\n## Foo\n## Foo-2\n## Foo').map(h=>h.id); assert.equal(new Set(ids).size,ids.length);
+});
+test('new task guides have real routes and every GuideLink resolves', () => {
+  const docs = discoverContent();
+  const routes = new Set(allRoutes(docs));
+  for (const slug of ['gameplay', 'controls', 'best-settings', 'zombies']) assert.ok(routes.has(`/guides/${slug}/`));
+  for (const doc of docs) {
+    for (const match of doc.body.matchAll(/<GuideLink slug="([^"]+)"/g)) {
+      assert.ok(routes.has(localePath(doc.locale, match[1])), `${doc.slug} links to missing ${match[1]}`);
+    }
+  }
+});
+test('share metadata and guide list schema reflect published pages', () => {
+  const docs = discoverContent();
+  const pageMetadata = metadata('en', '', 'Bodycam guides', 'Practical game guides', docs);
+  const images = pageMetadata.openGraph?.images;
+  assert.ok(Array.isArray(images));
+  assert.ok(images[0] && typeof images[0] === 'object' && 'url' in images[0]);
+  assert.ok(String(images[0].url).endsWith('/opengraph-image'));
+  assert.ok(pageMetadata.twitter && 'card' in pageMetadata.twitter);
+  assert.equal(pageMetadata.twitter.card, 'summary_large_image');
+  assert.equal(structuredData('guides/controls', docs), null);
+  const schema = structuredData('guides', docs);
+  assert.ok(schema);
+  const data = JSON.parse(serializeStructuredData(schema)) as { '@graph': { '@type': string; numberOfItems?: number; itemListElement?: { url: string }[] }[] };
+  const list = data['@graph'].find(item => item['@type'] === 'ItemList');
+  assert.equal(list?.numberOfItems, docs.length - 1);
+  assert.ok(list?.itemListElement?.some(item => item.url.endsWith('/guides/controls/')));
+  assert.ok(list?.itemListElement?.some(item => item.url.endsWith('/guides/best-settings/')));
 });

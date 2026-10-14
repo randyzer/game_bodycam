@@ -10,7 +10,16 @@ for(const path of paths){
   assert.ok(html.includes(`href="${origin}${path}"`),`Canonical missing: ${path}`);
   assert.ok(html.includes(`content="${process.env.SITE_INDEXABLE==='true'?'index':'noindex'}, follow"`),`Index state: ${path}`);
   assert.ok(!/Quarry Field|Bomb Farm|quarry-board/.test(html),`Template residue: ${path}`);
+  assert.ok(html.includes(`property="og:image" content="${origin}/opengraph-image"`),`Share image missing: ${path}`);
+  if(path==='/') assert.ok(html.includes('"@type":"WebSite"'), 'Home WebSite schema missing');
+  if(path==='/guides/') assert.ok(html.includes('"@type":"ItemList"'), 'Guide ItemList schema missing');
+  if(['/guides/gameplay/','/guides/controls/','/guides/best-settings/','/guides/zombies/'].includes(path)) {
+    assert.ok(html.includes('<table>'),`Practical reference table missing: ${path}`);
+  }
 }
+const shareImage=await fetch(new URL('/opengraph-image',base));
+assert.equal(shareImage.status,200,'Share image response');
+assert.ok(shareImage.headers.get('content-type')?.startsWith('image/png'),'Share image must be PNG');
 const sitemap=await (await fetch(new URL('/sitemap.xml',base))).text();
 assert.deepEqual([...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>new URL(m[1]).pathname).sort(),[...paths].sort());
 const robots=await (await fetch(new URL('/robots.txt',base))).text();assert.ok(robots.includes(`Sitemap: ${origin}/sitemap.xml`));
